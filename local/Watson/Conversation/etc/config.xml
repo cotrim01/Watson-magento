@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <modules>
+        <Watson_Conversation>
+            <version>0.1.0</version>
+        </Watson_Conversation>
+    </modules>
+    <global>
+        <blocks>
+            <watson_conversation>
+                <class>Watson_Conversation_Block</class>
+            </watson_conversation>
+        </blocks>
+        <helpers>
+            <watson_conversation>
+                <class>Watson_Conversation_Helper</class>
+            </watson_conversation>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <watson_conversation>
+                    <file>watson_conversation.xml</file>
+                </watson_conversation>
+            </updates>
+        </layout>
+        <routers>
+            <watson_conversation>
+                <use>standard</use>
+                <args>
+                    <module>Watson_Conversation</module>
+                    <frontName>conversation</frontName>
+                </args>
+            </watson_conversation>
+        </routers>
+    </frontend>
+</config>

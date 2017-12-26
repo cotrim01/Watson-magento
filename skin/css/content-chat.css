@@ -1,0 +1,85 @@
+#widnow{
+    width:500px;
+    bottom: 15px;
+    position: fixed;
+    z-index: 250;
+    right: 0;
+
+}
+
+#title_bar{
+    background: #fff;
+    height: 25px;
+    width: 100%;
+}
+#button{
+    background-image: url("../images/chat .png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 65px;
+    height: 65px;
+    float: right;
+    cursor:pointer;
+}
+#box{
+    height: 500px;
+    background: #fff;
+    display:none;
+    background: transparent;
+}
+#close{
+    height: 25px;
+    width: 25px;
+    cursor:pointer;
+    background-image: url("../images/x.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+    float: right;
+}
+
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+.flip-container, .front, .back {
+    width: 69px;
+    height: 69px;
+    float: right;
+    cursor:pointer;
+}
+
+.flipper {
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.front, .back {
+
+    backface-visibility: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.front {
+    z-index: 2;
+
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+#back{
+    background-image: url("../images/icone-magento.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 58px;
+    width: 69px;
+    height: 69px;
+    float: right;
+    cursor:pointer;
+    position: fixed;
+
+}
+
