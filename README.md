@@ -1,11 +1,11 @@
 <h2>Módulo de integração Watson Conversation e Magento</h2>
 
-
 <h3>Instalação</h3>
+
 <ul>
   <li>Realize um Backup do Magento completo.</li>
   <li>Baixe o repositório como arquivo zip ou faça um fork do projeto.</li>
-  <li>Copie os arquivos para seus respectivos diretórios dentro do magento.</li>
+  <li>Copie os arquivos para seus respectivos diretórios dentro do magento.</li>
   <li>Force a limpeza do cache Sistema > Gerenciamento de cache (System > Cache management)</li>
 </ul>
 
