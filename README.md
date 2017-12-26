@@ -7,6 +7,7 @@
   <li>Baixe o repositório como arquivo zip ou faça um fork do projeto.</li>
   <li>Copie os arquivos para seus respectivos diretórios dentro do magento.</li>
   <li>Force a limpeza do cache Sistema > Gerenciamento de cache (System > Cache management)</li>
+  <li>Caso necessário, limpe o cache do navegador.</li>
 </ul>
 
 <h3>Requisitos mínimos</h3>
