@@ -55,5 +55,8 @@ jQuery(document).ready(function() {
         });
         return false;
     });
+    $("#limpar").click(function () {
+        $("#chat").html("<meta http-equiv=\"refresh\" content=\"0; url=http://dev.buscape.com.br/conversation/conversation\"/>");
+    })	
 });
 

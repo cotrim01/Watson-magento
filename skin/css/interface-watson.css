@@ -102,7 +102,7 @@
     background-color: #ff620c;
     border: none;
     border-radius: 3px;
-    display: block;
+    display: inline-block;
     padding: .5em 1em;
     width: 100%;
     font-size: 16px;
