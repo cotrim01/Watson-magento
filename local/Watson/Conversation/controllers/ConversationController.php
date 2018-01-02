@@ -13,17 +13,9 @@ class  Watson_Conversation_ConversationController extends Mage_Core_Controller_F
     {
         $this->getResponse()->setHeader('Content-Type', 'application/json');
 
-//Id loja "f6bc4709-670b-4c95-ac3e-5db4ed7c49b0"
-//Id pizzaria "8d224b18-8fa4-4e80-aeae-ddb4214b313d";
-        $workspace = "0e3d9904-78a3-4dd6-b9e3-0f3977198cd7";
-//Dados Lucas
-        $username = "704c0b46-36a9-4bc3-a4dd-64648ace9e07";
-        $password = "h7PmTVP3Hqm1";
-
-//Meus dados
-//$username = "3944ccfa-a121-4a27-a3bb-c8d0f4136a3c";
-//$password = "h3dXGBYambRt";
-
+        $workspace = Mage::getStoreConfig('conversation/credentials/workspace');
+        $username = Mage::getStoreConfig('conversation/credentials/username');
+        $password = Mage::getStoreConfig('conversation/credentials/password');
 
         if (session_status() == PHP_SESSION_NONE) {
             session_start();
